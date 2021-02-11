@@ -1,7 +1,8 @@
-package com.aiman.imagesearch
+package com.codinginflow.imagesearchapp.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.codinginflow.imagesearchapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
