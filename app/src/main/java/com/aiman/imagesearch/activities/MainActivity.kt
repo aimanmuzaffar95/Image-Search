@@ -1,10 +1,10 @@
-package com.codinginflow.imagesearchapp.activities
+package com.aiman.imagesearch.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.codinginflow.imagesearchapp.R
-import com.codinginflow.imagesearchapp.databinding.ActivityMainBinding
+import com.aiman.imagesearch.R
+import com.aiman.imagesearch.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.codinginflow.imagesearchapp.viewmodels
+package com.aiman.imagesearch.viewmodels
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MutableLiveData
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 import androidx.lifecycle.viewModelScope
 import androidx.paging.cachedIn
-import com.codinginflow.imagesearchapp.repositories.UnsplashRepository
+import com.aiman.imagesearch.repositories.UnsplashRepository
 
 
 class GalleryViewModel @ViewModelInject constructor(

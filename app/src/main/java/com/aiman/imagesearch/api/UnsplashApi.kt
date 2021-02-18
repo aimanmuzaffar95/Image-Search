@@ -1,8 +1,7 @@
-package com.codinginflow.imagesearchapp.api
+package com.aiman.imagesearch.api
 
-import com.codinginflow.imagesearchapp.BuildConfig
+import com.aiman.imagesearch.BuildConfig
 import retrofit2.http.GET
-import retrofit2.http.Header
 import retrofit2.http.Headers
 import retrofit2.http.Query
 

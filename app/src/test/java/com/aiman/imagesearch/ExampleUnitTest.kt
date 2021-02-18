@@ -1,4 +1,4 @@
-package com.codinginflow.imagesearchapp
+package com.aiman.imagesearch
 
 import org.junit.Test
 

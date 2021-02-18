@@ -1,6 +1,6 @@
-package com.codinginflow.imagesearchapp.di
+package com.aiman.imagesearch.di
 
-import com.codinginflow.imagesearchapp.api.UnsplashApi
+import com.aiman.imagesearch.api.UnsplashApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

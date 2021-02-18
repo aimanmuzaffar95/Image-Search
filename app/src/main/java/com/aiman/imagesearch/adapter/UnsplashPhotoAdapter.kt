@@ -1,6 +1,5 @@
-package com.codinginflow.imagesearchapp.adapter
+package com.aiman.imagesearch.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
@@ -9,10 +8,9 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.codinginflow.imagesearchapp.R
-import com.codinginflow.imagesearchapp.databinding.ActivityMainBinding
-import com.codinginflow.imagesearchapp.databinding.ItemPhotoBinding
-import com.codinginflow.imagesearchapp.models.UnsplashPhoto
+import com.aiman.imagesearch.R
+import com.aiman.imagesearch.databinding.ItemPhotoBinding
+import com.aiman.imagesearch.models.UnsplashPhoto
 
 class UnsplashPhotoAdapter: PagingDataAdapter<UnsplashPhoto, UnsplashPhotoAdapter.PhotoViewHolder>(
     PHOTO_COMPARATOR) {

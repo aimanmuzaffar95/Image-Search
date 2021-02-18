@@ -1,11 +1,10 @@
-package com.codinginflow.imagesearchapp.data.paging
+package com.aiman.imagesearch.data.paging
 
 import androidx.paging.PagingSource
-import com.codinginflow.imagesearchapp.api.UnsplashApi
-import com.codinginflow.imagesearchapp.models.UnsplashPhoto
+import com.aiman.imagesearch.api.UnsplashApi
+import com.aiman.imagesearch.models.UnsplashPhoto
 import retrofit2.HttpException
 import java.io.IOException
-import java.lang.Exception
 
 const val STARTING_INDEX = 1
 

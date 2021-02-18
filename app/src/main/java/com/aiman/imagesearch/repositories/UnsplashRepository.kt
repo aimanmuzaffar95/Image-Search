@@ -1,10 +1,10 @@
-package com.codinginflow.imagesearchapp.repositories
+package com.aiman.imagesearch.repositories
 
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.liveData
-import com.codinginflow.imagesearchapp.api.UnsplashApi
-import com.codinginflow.imagesearchapp.data.paging.UnsplashPagingSource
+import com.aiman.imagesearch.api.UnsplashApi
+import com.aiman.imagesearch.data.paging.UnsplashPagingSource
 import javax.inject.Inject
 import javax.inject.Singleton
 

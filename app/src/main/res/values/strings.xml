@@ -2,4 +2,6 @@
     <string name="app_name">Image Search App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_could_not_be_loaded">Results could not be loaded</string>
+    <string name="retry">Retry</string>
 </resources>
